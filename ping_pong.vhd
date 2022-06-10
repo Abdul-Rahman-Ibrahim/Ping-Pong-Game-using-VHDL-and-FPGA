@@ -5,7 +5,7 @@
 -- Create Date:    14:22:13 05/23/2022 
 -- Design Name: 
 -- Module Name:    Lab4 - Behavioral 
--- Project Name: 
+-- Project Name: Ping Pong Game with LEDs
 -- Target Devices: 
 -- Tool versions: 
 -- Description: 
