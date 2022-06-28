@@ -29,7 +29,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx primitives in this code.
 --library UNISIM;
---use UNISIM.VComponents.all;entity Lab4 is
+--use UNISIM.VComponents.all;
 entity Lab4 is
     Port ( User1 : in  STD_LOGIC;
            User2 : in  STD_LOGIC;
