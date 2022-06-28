@@ -30,7 +30,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 -- any Xilinx primitives in this code.
 --library UNISIM;
 --use UNISIM.VComponents.all;
-entity Lab4 is
+entity Ping_Pong is
     Port ( User1 : in  STD_LOGIC;
            User2 : in  STD_LOGIC;
           MCLK : in STD_LOGIC;
@@ -38,8 +38,8 @@ entity Lab4 is
            L : out  STD_LOGIC_VECTOR(9 DOWNTO 0);
            Left_player_score : out std_logic_vector(3 downto 0);
           Right_player_score : out std_logic_vector(3 downto 0));
-end Lab4;
-architecture Behavioral of Lab4 is
+end Ping_Pong;
+architecture Behavioral of Ping_Pong is
 signal User1_score: std_logic_vector(3 downto 0) := "0000"; 
 	signal User2_score: std_logic_vector(3 downto 0) := "0000";
 	signal LEDS: std_logic_vector(9 downto 0) := "1000000000";
